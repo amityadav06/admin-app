@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+
+.tab-con {
+  padding-left: 8rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 200px 300px 100px 200px;
+  justify-content: space-around;
+  justify-items: start;
+  border-bottom: 2px solid rgba(255, 130, 255, 0.3);
+}
+
+.input {
+  margin: 1rem 0;
+  width: 80%;
+  height: 2rem;
+  font-size: 1.5rem;
+  padding-left: 8px;
+  border-style: none;
+  border-radius: 8px;
+}
+.edit {
+  background: transparent;
+  color: green;
+  padding-top: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+}
+.trash {
+  background: transparent;
+  color: red;
+  cursor: pointer;
+}
